@@ -12,6 +12,8 @@
 		2A7DC2341BBE0C6900D5D380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7DC2321BBE0C6900D5D380 /* Main.storyboard */; };
 		2A7DC2361BBE0C6900D5D380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7DC2351BBE0C6900D5D380 /* Assets.xcassets */; };
 		2A7DC2391BBE0C6900D5D380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7DC2371BBE0C6900D5D380 /* LaunchScreen.storyboard */; };
+		2A7DC2411BBE0C9800D5D380 /* secViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7DC2401BBE0C9800D5D380 /* secViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2A7DC2431BBE0CB000D5D380 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7DC2421BBE0CB000D5D380 /* thirdViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2A7DC2351BBE0C6900D5D380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A7DC2381BBE0C6900D5D380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A7DC23A1BBE0C6900D5D380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7DC2401BBE0C9800D5D380 /* secViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secViewController.swift; sourceTree = "<group>"; };
+		2A7DC2421BBE0CB000D5D380 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2A7DC2351BBE0C6900D5D380 /* Assets.xcassets */,
 				2A7DC2371BBE0C6900D5D380 /* LaunchScreen.storyboard */,
 				2A7DC23A1BBE0C6900D5D380 /* Info.plist */,
+				2A7DC2401BBE0C9800D5D380 /* secViewController.swift */,
+				2A7DC2421BBE0CB000D5D380 /* thirdViewController.swift */,
 			);
 			path = QuizApp1;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A7DC2311BBE0C6900D5D380 /* ViewController.swift in Sources */,
+				2A7DC2411BBE0C9800D5D380 /* secViewController.swift in Sources */,
+				2A7DC2431BBE0CB000D5D380 /* thirdViewController.swift in Sources */,
 				2A7DC22F1BBE0C6900D5D380 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

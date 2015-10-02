@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textFirst: UITextField!
+    @IBAction func btnFirst(sender: AnyObject) {
+        if(textFirst != ""){
+            firstAns = textFirst.text
+        }
+        else{
+            firstAns = ""
+        }
+        performSegueWithIdentifier("connect1", sender: sender)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
